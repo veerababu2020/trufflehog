@@ -4,7 +4,7 @@
 #   "Commit",
 #  "File"
 # "Raw",
-#  "Rawv2"
+#  "RawV2"
 
 
 import pandas as pd
@@ -33,7 +33,7 @@ KEY_COLUMNS = [
     "Commit",
     "File",
     "Raw",
-    "Rawv2"
+    "RawV2"
 ]
 
 # Verify required columns exist
@@ -92,7 +92,7 @@ for idx, row in df.iterrows():
             "Commit": row.get("Commit", ""),
             "File": row.get("File", ""),
             "Raw": row.get("Raw", ""),
-            "Rawv2": row.get("Rawv2", "")
+            "Rawv2": row.get("RawV2", "")
         })
 
 # ==========================
