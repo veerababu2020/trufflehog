@@ -1,3 +1,12 @@
+
+#key points to find duplication
+#"DetectorName",
+#   "Commit",
+#  "File"
+# "Raw",
+#  "Rawv2"
+
+
 import pandas as pd
 from pathlib import Path
 
